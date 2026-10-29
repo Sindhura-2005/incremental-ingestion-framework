@@ -1,0 +1,17 @@
+{
+  "current_orders": 191100,
+  "active_orders": 191100,
+  "deleted_orders": 0,
+  "duplicate_order_keys": 0,
+  "rejected_records": 0,
+  "successful_runs": 5,
+  "failed_runs": 4,
+  "history_events": 191100,
+  "committed_watermark": "2026-10-29T10:16:16+00:00",
+  "checks": {
+    "no_duplicate_order_keys": true,
+    "active_plus_deleted_equals_total": true,
+    "database_has_orders": true
+  },
+  "overall_pass": true
+}

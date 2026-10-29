@@ -1,0 +1,25 @@
+2026-10-29 14:43:34,580 INFO Run e31ad249-abda-4067-ab93-fd9cfb7963e4 succeeded
+2026-10-29 14:48:43,057 INFO Run ca225f16-b35c-41aa-9ea2-27f25f8df6ec succeeded
+2026-10-29 15:07:06,535 ERROR Run ebd7431e-5ab1-4ec2-9164-3ce3c38de14d failed
+Traceback (most recent call last):
+  File "C:\Users\DELL\incremental-ingestion-framework\pipeline.py", line 453, in process_file
+    raise RuntimeError(
+RuntimeError: simulated_failure_before_watermark
+2026-10-29 15:14:26,898 ERROR Run 3a1d3720-b26c-4eda-a7db-e8d16b7cffa5 failed
+Traceback (most recent call last):
+  File "C:\Users\DELL\incremental-ingestion-framework\pipeline.py", line 453, in process_file
+    raise RuntimeError(
+RuntimeError: simulated_failure_before_watermark
+2026-10-29 15:15:02,626 INFO Run ef24550d-7dcf-42af-9f70-cec1e5b9cc98 succeeded
+2026-10-29 15:32:06,752 ERROR Run b3756cf1-0bc6-4dff-b365-0aca6aa9af25 failed
+Traceback (most recent call last):
+  File "C:\Users\DELL\incremental-ingestion-framework\pipeline.py", line 396, in process_file
+    raise ValueError(
+ValueError: history_version_payload_conflict
+2026-10-29 15:36:57,995 INFO Run 7919ead4-db6b-49c1-b99b-ee2475b47c87 succeeded
+2026-10-29 15:43:59,681 ERROR Run c2fc4862-9824-46e1-818f-61ac500cf4f5 failed
+Traceback (most recent call last):
+  File "C:\Users\DELL\incremental-ingestion-framework\pipeline.py", line 396, in process_file
+    raise ValueError(
+ValueError: history_version_payload_conflict
+2026-10-29 15:46:42,939 INFO Run ebd6a4b3-cb0f-49f1-af5a-12f3cdbce903 succeeded

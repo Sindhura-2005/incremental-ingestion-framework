@@ -1,0 +1,18 @@
+Input records: 100000 (generated dataset)
+Execution time: 12.78 seconds
+Exit code: 0
+Pipeline output:
+Database initialized successfully.
+Database location: C:\Users\DELL\incremental-ingestion-framework\data\pipeline.db
+{
+  "run_id": "ebd6a4b3-cb0f-49f1-af5a-12f3cdbce903",
+  "status": "success",
+  "input_count": 100000,
+  "accepted_count": 100000,
+  "rejected_count": 0,
+  "inserted_count": 100000,
+  "updated_count": 0,
+  "deleted_count": 0,
+  "watermark": "2026-10-29T10:16:16+00:00"
+}
+
