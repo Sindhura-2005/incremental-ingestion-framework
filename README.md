@@ -99,11 +99,4 @@ Current-state changes and watermark updates are committed in a database transact
 
 Validation Evidence
 
-The project includes automated tests and a generated JSON validation report. Run both before submitting.
-
-Limitations and Future Improvements
-The reference customer dataset is synthetic.
-The pipeline uses a timestamp lookback window; records older than the window may require an explicit backfill.
-Production deployments should use source-provided change sequence numbers or CDC where available.
-Additional integration tests should cover late-arriving events, tombstones, malformed CSV files, and simulated transaction failures.
-Large-scale deployments could use partitioned files and a distributed processing engine.
+The project includes automated tests and a generated JSON validation report.
